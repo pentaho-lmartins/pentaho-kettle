@@ -45,6 +45,16 @@
       <groupId>net.sf.saxon</groupId>
       <artifactId>saxon</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <scope>provided</scope>
+    </dependency>
     <!-- test dependencies -->
     <dependency>
       <groupId>org.dom4j</groupId>
